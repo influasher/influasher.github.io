@@ -53,10 +53,12 @@ div {
     align-items: flex-start;
 }
 .contact-section{
-    margin-top: 10px;
     max-width: 300px;
     display: flex;
     align-items: center;
+    border: 0px;
+    box-shadow: none;
+
 
 }
 

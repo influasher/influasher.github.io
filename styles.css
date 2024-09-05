@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    padding: 20px; /* Add padding inside the div */
+    margin: 10px auto; /* Center the div and add margin */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #fff; /* Set a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 800px; /* Set a maximum width */
+    width: 100%; /* Make the div responsive */
+}
+
+.image-text-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-text-container img {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+}
+
+
+.introduction{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    max-width: 400px;
+    box-shadow: none;
+}
+.text-section {
+    max-width: 300px;
+    width: 100%
+}
+
+.text-section p {
+    align-items: flex-start;
+}
+.contact-section{
+    margin-top: 10px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+
+}
+
+.social-icon {
+    width: 20px;
+    height: auto; /* Maintain aspect ratio */
+
+}
